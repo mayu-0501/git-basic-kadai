@@ -1,0 +1,18 @@
+PS C:\Users\Mayumi1101> cd git_challenge
+PS C:\Users\Mayumi1101\git_challenge> git commit -m "hello world!"
+fatal: not a git repository (or any of the parent directories): .git
+PS C:\Users\Mayumi1101\git_challenge> git init
+Initialized empty Git repository in C:/Users/Mayumi1101/git_challenge/.git/
+PS C:\Users\Mayumi1101\git_challenge> git add hello_world.txt
+PS C:\Users\Mayumi1101\git_challenge> git commit -m "hello world!"
+[main (root-commit) c180b67] hello world!
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS C:\Users\Mayumi1101\git_challenge> git commit -m "こんにちは、世界！"
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\Mayumi1101\git_challenge> git status
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\Mayumi1101\git_challenge> git log --oneline
+c180b67 (HEAD -> main) hello world!
